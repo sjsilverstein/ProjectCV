@@ -1,3 +1,26 @@
+
+*{
+ color: black;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
 body{
     background-color: black;
 
@@ -6,5 +29,23 @@ body{
     background-color: white;
 }
 .sidebar{
-    background-color: darkgrey;
+    background-color: #6D6D6D;
+    border-right: 2px solid red;
+    height: 100vh;
+}
+.red_under_box{
+    border-bottom: 2px solid red;
+}
+.head_bar{
+    color: black;
+    background-color: #39AAB0;
+}
+.sidebar_top, .sidebar_content,.sidebar_bottom{
+    height: 33%;
+}
+.sidebar_sq{
+    height: 25%;
+}
+.social_icon{
+    min-width: 40px;
 }
