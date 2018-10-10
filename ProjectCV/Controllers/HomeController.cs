@@ -15,7 +15,6 @@ namespace ProjectCV.Controllers
         [Route("")]
         public IActionResult Index(){
             return View("Index");
-        }
-        
+        }        
     }
 }

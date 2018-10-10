@@ -11,7 +11,21 @@
 .resume_body_card{
     border: 1px solid black;
     box-shadow: 2px 5px;
+    background-color: #f8f8ff;
 }
+.project_cards{
+    border: 1px solid black;
+    box-shadow: 2px 5px;
+    height: 400px;
+    background-color: #f8f8ff;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
 footer{
 background-color: black;
 }
@@ -58,6 +72,7 @@ body{
     top: 0;
     position: sticky;
     z-index: 1;
+    border-right: 1px solid red;
 }
 .head_bar{
     color: black;
@@ -65,15 +80,24 @@ body{
     top: 0;
     position: sticky;
     z-index: 1;
+    border-bottom: 1px solid red;
 }
 .sidebar_top, .sidebar_content,.sidebar_bottom{
     height: 33%;
 }
+.sidebar_top{
+    border-bottom: 1px solid gray;
+}
+.sidebar_bottom{
+    border-top: 1px solid gray;
+}
 .sidebar_sq{
-    height: 25%;
+    height: 33%;
 }
 .social_icon{
     min-width: 40px;
+    border: 2px solid black;
+    border-radius: 25%;
 }
 .stnd_black_border{
     border-radius: 4%;
@@ -120,3 +144,7 @@ body{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #39AAB0;}
+
+
+/*Test Code */
+
