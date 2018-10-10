@@ -2,6 +2,26 @@
 *{
  color: black;
 }
+.text-bold{
+    font-weight: bold;
+}
+.margin-zero{
+    margin: 0;
+}
+footer{
+background-color: black;
+}
+.dv{
+    background-color: greenyellow;
+    border: 2px dotted red;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.text-white{
+    color: white;
+}
 /* unvisited link */
 a:link {
     color: black;
@@ -30,15 +50,17 @@ body{
 }
 .sidebar{
     background-color: #6D6D6D;
-    border-right: 2px solid red;
     height: 100vh;
-}
-.red_under_box{
-    border-bottom: 2px solid red;
+    top: 0;
+    position: sticky;
+    z-index: 1;
 }
 .head_bar{
     color: black;
     background-color: #39AAB0;
+    top: 0;
+    position: sticky;
+    z-index: 1;
 }
 .sidebar_top, .sidebar_content,.sidebar_bottom{
     height: 33%;
