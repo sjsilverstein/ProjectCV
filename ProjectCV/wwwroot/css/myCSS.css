@@ -2,6 +2,14 @@
 *{
  color: black;
 }
+.dv{
+    background-color: greenyellow;
+    border: 2px dotted red;
+    height: 35vh;
+}
+.gameBox{
+    margin-bottom: 50px;
+}
 .text-bold{
     font-weight: bold;
 }
@@ -16,23 +24,34 @@
 .project_cards{
     border: 1px solid black;
     box-shadow: 2px 5px;
-    height: 400px;
+    height: 50vh;
     background-color: #f8f8ff;
+}
+.project_card_text{
+    height: 35vh;
+    overflow: hidden;
+}
+.carousel-indicators li {
+    height: 1em;    
+    background-color: #6D6D6D;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    height: 1em;
+    background-color: #39AAB0;
 }
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-   }
+}
    
-   .carousel-control-next-icon {
+.carousel-control-next-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-   }
+}
+
 footer{
 background-color: black;
 }
-.dv{
-    background-color: greenyellow;
-    border: 2px dotted red;
-}
+
 .box{
     height: 100px;
     width: 100px;
@@ -101,8 +120,8 @@ body{
 }
 .stnd_black_border{
     border-radius: 4%;
+    border: 1px solid black;
     box-shadow: 2px 3px;
-
 }
 
 /* Dropdown Button */

@@ -15,8 +15,13 @@ namespace ProjectCV.Controllers
         [Route("Projects")]
         public IActionResult Index()
         {
-            Console.WriteLine("*** We Made it to the Projects Controller Projects Route! ***");
             return View("Index");
+        }
+        [HttpGet]
+        [Route("Projects/LaserDefender")]
+        public IActionResult LaserDefender()
+        {
+            return View("LaserDefender");
         }
     }
 }

@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-11 subtitle">
+        <h3>Laser Defender.</h3>
+    </div>
+</div>
+<hr class="subtitle_break">
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <h4>Controls</h4>
+        <p>Movement: Arrow Keys Fire: Spacebar</p>
+    </div>
+</div>
+
+    <link rel="shortcut icon" href="LaserDefender/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="LaserDefender/TemplateData/style.css">
+    <script src="LaserDefender/TemplateData/UnityProgress.js"></script>  
+    <script src="LaserDefender/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "LaserDefender/Build/laser_defender_webgl.json", {onProgress: UnityProgress});
+    </script>
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-11 gameBox">
+        <div id="gameContainer" style="width: 800px; height: 600px"></div>
+    </div>
+ 
+</div>
+   
