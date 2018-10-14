@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "LaserDefender",
+"dataUrl": "NewLaser.data.unityweb",
+"asmCodeUrl": "NewLaser.asm.code.unityweb",
+"asmMemoryUrl": "NewLaser.asm.memory.unityweb",
+"asmFrameworkUrl": "NewLaser.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
