@@ -2,6 +2,34 @@
 *{
  color: black;
 }
+.overIcon {
+    transform:             rotate( -360deg );            
+        -moz-transform:    rotate( -360deg );            
+        -ms-transform:     rotate( -360deg );            
+        -o-transform:      rotate( -360deg );            
+        -webkit-transform: rotate( -360deg );            
+    transition:             transform 550ms ease;
+        -moz-transition:    -moz-transform 550ms ease;
+        -ms-transition:     -ms-transform 550ms ease;
+        -o-transition:      -o-transform 550ms ease;
+        -webkit-transition: -webkit-transform 550ms ease;
+}
+
+.outIcon {
+    transform:             rotate( 360deg );            
+        -moz-transform:    rotate( 360deg );            
+        -ms-transform:     rotate( 360deg );            
+        -o-transform:      rotate( 360deg );            
+        -webkit-transform: rotate( 360deg );            
+    transition:             transform 550ms ease;
+        -moz-transition:    -moz-transform 550ms ease;
+        -ms-transition:     -ms-transform 550ms ease;
+        -o-transition:      -o-transform 550ms ease;
+        -webkit-transition: -webkit-transform 550ms ease;
+}
+.z_index_1{
+    z-index: 1;
+}
 .dv{
     background-color: greenyellow;
     border: 2px dotted red;
@@ -17,9 +45,15 @@
     margin: 0;
 }
 .resume_body_card{
+    background-color: #f8f8ff;
+}
+.box-shadow-hover{
     border: 1px solid black;
     box-shadow: 2px 5px;
-    background-color: #f8f8ff;
+}
+.box-shadow-hover-deep{
+    border: 2px solid black;
+    box-shadow: 4px 7px;
 }
 .project_cards{
     border: 1px solid black;
@@ -29,7 +63,6 @@
 }
 .project_card_text{
     height: 35vh;
-    overflow: hidden;
 }
 .carousel-indicators li {
     height: 1em;    
@@ -82,7 +115,17 @@ body{
     background-color: black;
 
 }
-.container{
+.main_RenderBody{
+    border-top: 2px solid red;
+    background: linear-gradient(to bottom, white 0%, #3BABB1 100%);
+}
+.navbar-custom{
+    background-color: #3BABB1;
+    top: 0;
+    position: sticky;
+    z-index: 3;
+}
+.main_container{
     background-color: white;
 }
 .sidebar{
@@ -91,11 +134,11 @@ body{
     top: 0;
     position: sticky;
     z-index: 1;
-    border-right: 1px solid red;
+    border-right: 2px solid red;
 }
 .head_bar{
     color: black;
-    background-color: #39AAB0;
+    background-color: #3BABB1;
     top: 0;
     position: sticky;
     z-index: 1;
@@ -122,6 +165,9 @@ body{
     border-radius: 4%;
     border: 1px solid black;
     box-shadow: 2px 3px;
+}
+.portrait{
+    border-radius: 4%;
 }
 
 /* Dropdown Button */
