@@ -1,7 +1,26 @@
+function MyProjects() {
+    var elmnt = document.getElementById("Projects");
+    elmnt.scrollIntoView();
+}
+
 $(document).ready(function(){
 
+    
+
     $('.carousel').carousel({        
-        interval: 5000
+        interval: 6000
+    });
+//Swap Img with another when moused over    
+    function imgSwap(selector){
+        var temp = $(selector).attr("src");
+        $(selector).attr("src", $(selector).attr("other"));
+        $(selector).attr("other", temp);
+    }
+    $("img.portrait").hover(function(){
+        console.log ("test");
+        imgSwap($(this));
+    },function(){
+        imgSwap($(this));
     });
 
 //Rotates img 360 degrees when moused over and out.
@@ -26,4 +45,5 @@ $(document).ready(function(){
         $(this).toggleClass('test');
 
     });
+    
 })

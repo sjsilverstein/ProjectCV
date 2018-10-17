@@ -45,6 +45,7 @@
 }
 .resume_body_card{
     background-color: #f8f8ff;
+    margin-bottom: 15px;
 }
 .box-shadow-hover{
     border: 1px solid black;
@@ -55,7 +56,7 @@
     box-shadow: 4px 7px;
 }
 .test{
-    background: linear-gradient(to bottom right, #F0F1D5 0%, #f8f8ff 25%, #f8f8ff 75%, #3BABB1 100%);
+    background: linear-gradient(to bottom right, #f8f8ff 30%,  #DCD9D4 90%, #3BABB1 100%);
 }
 .project_cards{
     border: 1px solid black;
@@ -119,7 +120,8 @@ body{
 
 }
 .main_RenderBody{
-    background: linear-gradient(to bottom, white 0%, #3BABB1 100%);
+    background: linear-gradient(to bottom, #DCD9D4 0%, #3BABB1 100%);
+    border-radius: 15px;
 }
 .navbar-custom{
     background: linear-gradient(to bottom, #3BABB1 90%, white 100%);
