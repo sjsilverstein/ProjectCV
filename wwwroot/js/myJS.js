@@ -18,8 +18,12 @@ $(document).ready(function(){
     $(".resume_body_card").hover(function(){
         $(this).toggleClass('box-shadow-hover');
         $(this).toggleClass('box-shadow-hover-deep');
+        $(this).toggleClass('test');
+        
     },function(){
         $(this).toggleClass('box-shadow-hover');
         $(this).toggleClass('box-shadow-hover-deep');
+        $(this).toggleClass('test');
+
     });
 })

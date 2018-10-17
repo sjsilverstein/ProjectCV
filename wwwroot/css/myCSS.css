@@ -32,7 +32,6 @@
 }
 .dv{
     background-color: greenyellow;
-    border: 2px dotted red;
     height: 35vh;
 }
 .gameBox{
@@ -54,6 +53,9 @@
 .box-shadow-hover-deep{
     border: 2px solid black;
     box-shadow: 4px 7px;
+}
+.test{
+    background: linear-gradient(to bottom right, #F0F1D5 0%, #f8f8ff 25%, #f8f8ff 75%, #3BABB1 100%);
 }
 .project_cards{
     border: 1px solid black;
@@ -80,6 +82,7 @@
 .carousel-control-next-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
 
 footer{
 background-color: black;
@@ -116,11 +119,10 @@ body{
 
 }
 .main_RenderBody{
-    border-top: 2px solid red;
     background: linear-gradient(to bottom, white 0%, #3BABB1 100%);
 }
 .navbar-custom{
-    background-color: #3BABB1;
+    background: linear-gradient(to bottom, #3BABB1 90%, white 100%);
     top: 0;
     position: sticky;
     z-index: 3;
@@ -128,30 +130,24 @@ body{
 .main_container{
     background-color: white;
 }
-.sidebar{
-    background-color: #6D6D6D;
-    height: 100vh;
-    top: 0;
-    position: sticky;
-    z-index: 1;
-    border-right: 2px solid red;
-}
 .head_bar{
     color: black;
     background-color: #3BABB1;
     top: 0;
     position: sticky;
     z-index: 1;
-    border-bottom: 1px solid red;
 }
+.sidebar{
+    background:linear-gradient(to right, #6D6D6D 95%, white 100%);
+    border-top-right-radius: 20px;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
 .sidebar_top, .sidebar_content,.sidebar_bottom{
     height: 33%;
-}
-.sidebar_top{
-    border-bottom: 1px solid gray;
-}
-.sidebar_bottom{
-    border-top: 1px solid gray;
 }
 .sidebar_sq{
     height: 33%;
