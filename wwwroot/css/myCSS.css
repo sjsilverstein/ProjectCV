@@ -121,7 +121,8 @@ body{
 }
 .main_RenderBody{
     background: linear-gradient(to bottom, #DCD9D4 0%, #3BABB1 100%);
-    border-radius: 15px;
+    border-radius: 20px;
+    border:1px solid white;
 }
 .navbar-custom{
     background: linear-gradient(to bottom, #3BABB1 90%, white 100%);
