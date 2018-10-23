@@ -126,8 +126,7 @@ body{
 }
 .navbar-custom{
     background: linear-gradient(to bottom, #3BABB1 90%, white 100%);
-    top: 0;
-    position: sticky;
+    
     z-index: 3;
 }
 .main_container{

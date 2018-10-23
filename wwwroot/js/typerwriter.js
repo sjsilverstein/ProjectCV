@@ -10,13 +10,7 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('Welcome.')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('You have found...')
-    .pauseFor(1500)
-    .deleteAll()
-    .typeString('My little slice of the internet!')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('Stay awhile.')
+    .typeString('You have found my little slice of the internet!')
     .pauseFor(1500)
     .start();
 
